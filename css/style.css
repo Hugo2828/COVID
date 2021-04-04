@@ -54,3 +54,40 @@ img{
     color: #fff;
     text-decoration: none;
 }
+.alert-section{
+    padding: 260px 0;
+    background:#FFF8F8 ;
+    background-image: url("../img/sitting-down.png");
+    background-position: center right;
+    background-repeat: no-repeat;
+   background-size: 60%;
+    
+}
+.stay-h{
+    font-size:  40px ;
+    width: 480px;
+    line-height: 45px;
+    color: #035755;  
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.stay-p{
+    width: 490px;
+    line-height: 27px;
+    margin-bottom: 50px;
+    color: #4B4F51;
+    font-size: 20px;
+}
+.alert-h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #FB4C47;
+    width: 233px;
+}
+.let-link{
+    color: #fff;
+    border-radius: 87px;
+    background:#fb4c47;
+    padding: 16px 30px;
+    font-size: 24px;
+}
