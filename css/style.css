@@ -8,3 +8,49 @@
 img{
     width: 100%;
 }
+.nav-section{
+    background: #FFF8F8;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+.logo-nav{
+    width: 180px;
+}
+.flx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.nav-list{
+    display: flex;
+    align-items:center ;
+}
+.nav-item{
+    margin-left: 35px;
+}
+.nav-link{
+    font-size: 18px;
+    color: #035755;
+
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.toch{
+    color: #FB4C47;
+}
+.cont{
+    color: #FB4C47;
+    border: 2px solid #FB4C47;
+    border-radius:46px ;
+    padding: 16px 40px;
+    transition: 0.5s;
+}
+.cont:hover{
+    background: #fb4c47;
+    color: #fff;
+    text-decoration: none;
+}
