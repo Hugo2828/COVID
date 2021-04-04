@@ -9,7 +9,7 @@ img{
     width: 100%;
 }
 .nav-section{
-    background: #FFF8F8;
+    background: rgba(255, 255, 255, 0);
 }
 .container{
     width: 1300px;
@@ -56,7 +56,7 @@ img{
 }
 .alert-section{
     padding: 260px 0;
-    background:#FFF8F8 ;
+    background:rgba(255, 255, 255, 0) ;
     background-image: url("../img/sitting-down.png");
     background-position: center right;
     background-repeat: no-repeat;
@@ -85,9 +85,76 @@ img{
     width: 233px;
 }
 .let-link{
+    border: 2px solid #fb4c47;
     color: #fff;
     border-radius: 87px;
     background:#fb4c47;
     padding: 16px 30px;
-    font-size: 24px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.let-link:hover{
+    color: #FB4C47;
+    background: #fff;
+}
+.virus-h2{
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #FB4C47;
+    width: 233px;
+}
+.virus-h3{
+    font-size:  40px ;
+    line-height: 45px;
+    color: #035755;  
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 250px;
+}
+.virus-p{
+   
+    width: 600px;
+    line-height: 35px;
+    margin-bottom: 50px;
+    color: #4B4F51;
+    font-size: 20px;
+}
+.virus-link{
+    background: rgba(250, 86, 82, 0.15);
+    color:#FB4C47;
+    padding: 16px 30px;
+    border-radius: 65px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.virus-link:hover{
+    color: #fff;
+    background: #fb4c47;
+}
+.virus-section{
+    background-image: url("../img/colorful-viruses.png");
+   
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding: 120px 0;
+}
+.virus-section .container{
+  margin-left: 39%;
+  position: relative;
+  margin-right: 0;
+  width: 600px;
+  padding-left: 200px;
+  
+}
+.virus-img-bigg{
+    position: absolute;
+    top: 155px;
+    right: -460px;
+    width: 285px;
+}
+.virus-img-small{
+    position: absolute;
+    top: -100px;
+    width: 135px;
 }
