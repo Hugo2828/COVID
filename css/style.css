@@ -155,10 +155,12 @@ p{
 }
 .cont-item img{
     width: 265px;
+    margin-bottom: 20px;
 }
 .cont-list{
     display: flex;
     justify-content: space-around;
+ 
 }
 .cont-item{
     text-align: center;
@@ -166,6 +168,54 @@ p{
     box-shadow:0px 0px 20px 5px
     #e6dce6 ;
     width: 415px;
-    margin-left: 20px;
-    margin-bottom: 50px;
+    margin-left: 25px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    position: relative;
+    transition: transform 0.5s;
+   
+}
+.virus-cont{
+    position: absolute;
+    width: 255px;
+    top: 445px;
+    left: -20;
+}
+.cont-section{
+    padding-bottom: 50px;
+    position: relative;
+}
+.cont-ph{
+    margin-top: 32px;
+}
+.cont-section .container{
+    text-align: center;
+    
+}
+.cont-covid{
+    color: #FB4C47;
+    margin-bottom: 10px;
+}
+.cont-header{
+    font-size:  40px ;
+    margin-bottom: 20px;
+}
+.cont-p{
+    line-height: 35px;
+    margin: 0 auto;
+    width: 550px;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.cont-item:hover{
+    border-bottom: 4px solid #fb4c47;
+    transform: scale(1.02);
+}
+.air-p{
+    width: 350px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+.air-header{
+    margin-bottom: 15px;
 }
