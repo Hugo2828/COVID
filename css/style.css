@@ -182,6 +182,7 @@ p{
     left: -20;
 }
 .cont-section{
+    padding-top: 50px;
     padding-bottom: 50px;
     position: relative;
 }
