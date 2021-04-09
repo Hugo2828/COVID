@@ -238,3 +238,21 @@ p{
     padding-bottom: 0;
   
 }
+
+.wear-list{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    }
+    .wear-list:nth-child(odd){
+    flex-direction: row-reverse;
+    }
+    .wear-item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
