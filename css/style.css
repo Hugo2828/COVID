@@ -225,6 +225,16 @@ p{
     background-image: url("../img/ill-girl.png");
     background-position: center center;
     background-repeat: no-repeat;
+    background-size:70% ;
     padding: 100px 0;
-    padding-bottom: 1200px;
+    padding-bottom: 900px;
+ 
+}
+.sym-p{
+    width: 46%;
+    margin: 0 auto;
+    line-height: 28px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  
 }
