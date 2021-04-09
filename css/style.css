@@ -262,20 +262,19 @@ p{
     .wear-header{
         font-size: 47px;
         position: relative;
-        padding-left: 90px;
         margin-bottom:30px ;
     }
     .wear-header img{
         width: 75px;
         position: absolute;
-        left: 0;
+        left: -100px;
         top: -10px;
         
     }
 #n{
     width:60px ;
     top: 10px;
-    left: 7px;
+    left: -94px;
 }
 .group{
     margin: 50px;
@@ -286,4 +285,7 @@ p{
 .girl-mg{
     width: 570px;
    
+}
+.gl{
+    margin-right: 100px;
 }
