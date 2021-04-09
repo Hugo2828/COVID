@@ -247,12 +247,43 @@ p{
     justify-content: space-around;
     
     }
-    .wear-list:nth-child(odd){
+.wear-list:nth-child(odd){
     flex-direction: row-reverse;
     }
-    .wear-item{
+.wear-item{
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 50px;
     }
+    .c{
+        text-align: center;
+    }
+    .wear-header{
+        font-size: 47px;
+        position: relative;
+        padding-left: 90px;
+        margin-bottom:30px ;
+    }
+    .wear-header img{
+        width: 75px;
+        position: absolute;
+        left: 0;
+        top: -10px;
+        
+    }
+#n{
+    width:60px ;
+    top: 10px;
+    left: 7px;
+}
+.group{
+    margin: 50px;
+}
+.wear-p{
+    width: 350px;
+}
+.girl-mg{
+    width: 570px;
+   
+}
