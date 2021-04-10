@@ -321,3 +321,37 @@ p{
     left: 0;
     top: -29px;
 }
+.h-header{
+    width: 35%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+button{
+    background: #F44A45;
+    color: #fff; 
+    padding: 8px 30px;
+    border-radius: 140px;
+    border: 2px solid #F44A45;
+    transition: 0.5s;
+}
+button:hover{
+    cursor: pointer;
+    color: #F44A45;
+    background: #fff;
+}
+form{
+  
+    text-align:center;
+    box-shadow:0 0 20px 4px rgba(0, 0, 0, 0.06) ;
+    width: 70%;
+    margin: 0 auto;
+  
+}
+input{
+    border: 1px solid #fff;
+  
+    color: #758681;
+    font-size: 22px;
+    padding: 10px;
+}
