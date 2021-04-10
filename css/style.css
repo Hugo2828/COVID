@@ -230,7 +230,8 @@ p{
     background-repeat: no-repeat;
     background-size:70% ;
     padding: 100px 0;
-    padding-bottom: 920px;
+    padding-bottom: 815px;
+   
  
 }
 .sym-p{
@@ -326,6 +327,7 @@ p{
     text-align: center;
     margin: 0 auto;
     margin-top: 60px;
+    margin-bottom: 40px;
 }
 button{
     background: #F44A45;
@@ -334,24 +336,68 @@ button{
     border-radius: 140px;
     border: 2px solid #F44A45;
     transition: 0.5s;
+    position: absolute;
+    right: 5px;
+    top: -11px;
 }
 button:hover{
     cursor: pointer;
     color: #F44A45;
     background: #fff;
+  
 }
 form{
   
     text-align:center;
-    box-shadow:0 0 20px 4px rgba(0, 0, 0, 0.06) ;
-    width: 70%;
+    box-shadow:0 0 20px 6px rgba(0, 0, 0, 0.06) ;
+    width: 30%;
     margin: 0 auto;
-  
+    border-radius:80px ;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
 }
 input{
     border: 1px solid #fff;
-  
+    border-radius: 80px;
     color: #758681;
     font-size: 22px;
-    padding: 10px;
+    padding: 10px 2px;
+    text-align: start;
+    width: 100%;
+    padding-left: 15px;
+}
+.container{
+    padding-bottom: 50px;
+}
+label{
+    position: relative;
+}
+.g-logo{
+    width: 210px;
+    min-height: 28px;
+}
+.footer-item a{
+color: #035755;
+margin: 15px;
+font-size: 20px;
+}
+.footer-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-section .container{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.f-p{
+    text-align: center;
+    font-size: 18px;
+}
+.sym-section .container{
+    padding-bottom: ;
 }
