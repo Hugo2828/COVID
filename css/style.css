@@ -146,6 +146,9 @@ p{
     background-position: center left;
     padding: 120px 0;
 }
+.alert-section .container{
+    padding-top: 130px;
+}
 .virus-section .container{
   margin-left: 39%;
   margin-right: 0;
@@ -288,4 +291,33 @@ p{
 }
 .gl{
     margin-right: 100px;
+}
+.map-section .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map-img{
+    width: 750px;
+    min-height: 450px;
+}
+.table-img{
+    width:400px ;
+    min-height: 530px;
+    margin-left: 30px;
+}
+.search{
+    position: absolute;
+    width: 150px;
+    top: -29px;
+    right: -110px;
+}
+.map-div{
+    position: relative;
+}
+.plus-img{
+    position: absolute;
+    width: 120px;
+    left: 0;
+    top: -29px;
 }
