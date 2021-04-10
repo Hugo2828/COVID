@@ -399,5 +399,17 @@ font-size: 20px;
     font-size: 18px;
 }
 .sym-section .container{
-    padding-bottom: ;
+   position: relative;
+}
+.path{
+    position: absolute;
+    width: 130px;
+    left: -10px;
+    bottom: 300px;
+}
+.pat{
+position: absolute;
+right: -50px;
+bottom: 180px;
+width: 220px;
 }
