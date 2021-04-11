@@ -413,3 +413,12 @@ right: -50px;
 bottom: 180px;
 width: 220px;
 }
+.we-do-section{
+    position: relative;
+}
+.green-virus{
+    width: 277px;
+    position: absolute;
+    top: 600px;
+    left: -9%;
+}
