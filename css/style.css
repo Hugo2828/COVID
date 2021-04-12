@@ -63,7 +63,8 @@ img{
     background-image: url("../img/sitting-down.png");
     background-position: center right;
     background-repeat: no-repeat;
-   background-size: 60%;
+    background-size: 60%;
+    padding-top: 180px;
     
 }
 .stay-h{
@@ -147,7 +148,7 @@ p{
     padding: 120px 0;
 }
 .alert-section .container{
-    padding-top: 130px;
+    padding-top: 100px;
 }
 .virus-section .container{
   margin-left: 39%;
@@ -332,13 +333,14 @@ p{
 button{
     background: #F44A45;
     color: #fff; 
-    padding: 8px 30px;
+    padding: 12px 35px;
     border-radius: 140px;
     border: 2px solid #F44A45;
     transition: 0.5s;
     position: absolute;
-    right: 5px;
-    top: -11px;
+    right: 10px;
+    top: px;
+    bottom: -10px;
 }
 button:hover{
     cursor: pointer;
@@ -359,7 +361,7 @@ form{
 }
 input{
     border: 1px solid #fff;
-    border-radius: 80px;
+    border-radius: 110px;
     color: #758681;
     font-size: 22px;
     padding: 10px 2px;
